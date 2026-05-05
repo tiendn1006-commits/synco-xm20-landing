@@ -20,8 +20,8 @@ function App() {
         <Hero />
         <EventInfo />
         <BrandStory />
-        <Concept />
         <DopSection />
+        <Concept />
         <Schedule />
         <Partners />
         <Register />
