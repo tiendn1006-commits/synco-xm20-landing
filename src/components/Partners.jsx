@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import kingcomLogo from '../kingcom.png'
+import nanliteLogo from '../nanlite1.png'
 
 const Partners = () => {
   const [ref, visible] = useScrollAnimation()
@@ -8,12 +10,12 @@ const Partners = () => {
   const partners = [
     {
       name: 'KINGCOM',
-      logo: '/src/kingcom logo.png',
+      logo: kingcomLogo,
       delay: 'anim-delay-1'
     },
     {
       name: 'NANLITE',
-      logo: '/src/nanlite1.png',
+      logo: nanliteLogo,
       delay: 'anim-delay-2'
     },
   ]

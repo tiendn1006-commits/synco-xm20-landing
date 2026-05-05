@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import syncoLogo from '../synco.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -7,7 +8,7 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-xl border-b border-white/10 shadow-[0_0_15px_rgba(255,0,0,0.15)]">
       <nav className="flex items-center justify-between px-6 md:px-12 h-20 w-full max-w-[1440px] mx-auto">
         <div className="flex items-center gap-3 flex-shrink-0">
-          <img src="/src/synco.png" alt="SYNCO x KingCom" className="h-8 md:h-10 w-auto object-contain" />
+          <img src={syncoLogo} alt="SYNCO x KingCom" className="h-8 md:h-10 w-auto object-contain" />
         </div>
         <div className="hidden md:flex items-center gap-8 font-['Space_Grotesk'] uppercase tracking-widest font-bold text-[12px] flex-1 justify-center">
           <a className="text-white/70 hover:text-white transition-colors" href="#about">SỰ KIỆN</a>
