@@ -16,11 +16,6 @@ const Partners = () => {
       logo: '/src/nanlite1.png',
       delay: 'anim-delay-2'
     },
-    {
-      name: 'LEXAR',
-      logo: '/src/lexar1.png',
-      delay: 'anim-delay-3'
-    }
   ]
 
   return (

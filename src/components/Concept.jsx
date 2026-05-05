@@ -1,5 +1,5 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
-import conceptImg from '../traitimdungsau.png'
+import conceptImg from '../Xtalk-Master.jpg'
 
 const Concept = () => {
   const [refLeft, visibleLeft] = useScrollAnimation()

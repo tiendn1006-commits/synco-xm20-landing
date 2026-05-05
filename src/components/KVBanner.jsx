@@ -1,4 +1,4 @@
-import kvImage from '../kv X20 copy.jpg'
+import kvImage from '../new.jpg'
 
 const KVBanner = () => {
   return (
