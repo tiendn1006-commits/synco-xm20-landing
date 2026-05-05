@@ -65,6 +65,9 @@ const BrandStory = () => {
 
         {/* Desktop Timeline with Curved Path */}
         <div className="hidden md:block relative" style={{ minHeight: '1680px' }}>
+          {/* Vertical center line */}
+          <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-red-600/20 via-red-600/50 to-red-600/20 -translate-x-1/2" style={{ zIndex: 0 }}></div>
+          
           <svg className="absolute left-0 top-0 w-full h-full pointer-events-none" style={{ zIndex: 0 }}>
             <defs>
               <linearGradient id="pathGradient" x1="0%" y1="0%" x2="0%" y2="100%">

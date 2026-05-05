@@ -16,7 +16,7 @@ const Hero = () => {
           Một sân khấu hoàn hảo không bắt đầu từ ánh đèn, mà được tạo nên từ những gì diễn ra phía sau. Hãy cùng bước ra phía sau sân khấu, để khám phá điều làm nên sân khấu.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-          <a className="w-full md:w-auto bg-red-600 text-black font-label-caps px-10 py-4 hover:bg-white transition-all duration-300 active:scale-95" href="#register">
+          <a className="w-full md:w-auto bg-red-600 text-black font-label-caps px-10 py-4 hover:bg-white transition-all duration-300 active:scale-95 animate-bounce-slow hover:animate-none" href="#register">
             ĐĂNG KÝ THAM GIA
           </a>
           <a className="w-full md:w-auto border border-white/20 text-white font-label-caps px-10 py-4 hover:border-red-600 hover:text-red-600 transition-all duration-300" href="#about">

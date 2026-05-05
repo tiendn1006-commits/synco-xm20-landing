@@ -31,7 +31,7 @@ const EventInfo = () => {
                   QUÀ TẶNG
                 </div>
                 <p className="text-secondary text-sm leading-relaxed">
-                  Cơ hội giành giải thưởng hấp dẫn qua Mini Game – bao gồm bộ tai nghe limited edition, voucher mua hàng và các gói quà độc quyền từ Synco x KingCom.
+                  Cơ hội giành giải thưởng hấp dẫn qua Mini Game – bao gồm màn hình phụ cho điện thoại SYNCO XView M4, voucher mua hàng và các gói quà độc quyền từ Synco x KingCom.
                 </p>
               </div>
 

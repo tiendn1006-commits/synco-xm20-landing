@@ -115,7 +115,7 @@ const Register = () => {
             </div>
             <div className={`md:col-span-2 pt-8 anim-hidden anim-delay-4 ${visible ? 'anim-visible' : ''}`}>
               <button 
-                className="w-full bg-red-600 text-black font-black py-4 hover:bg-white transition-all active:scale-[0.98] tracking-[0.2em] uppercase text-lg disabled:opacity-50 disabled:cursor-not-allowed" 
+                className="w-full bg-red-600 text-black font-black py-4 hover:bg-white transition-all active:scale-[0.98] tracking-[0.2em] uppercase text-lg disabled:opacity-50 disabled:cursor-not-allowed animate-bounce-slow hover:animate-none" 
                 type="submit"
                 disabled={isSubmitting}
               >

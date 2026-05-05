@@ -32,7 +32,6 @@ const DopSection = () => {
               "Trong thế giới ghi hình sân khấu, đây là một game 1 mạng – không có cơ hội thứ hai để sửa sai."
             </blockquote>
             <div className="flex flex-wrap gap-3">
-              <div className="px-3 py-2 border border-red-600/30 text-[10px] text-red-500 font-label-caps">DIRECTOR OF PHOTOGRAPHY</div>
               <div className="px-3 py-2 border border-red-600/30 text-[10px] text-red-500 font-label-caps">XM20 AMBASSADOR</div>
             </div>
           </div>
