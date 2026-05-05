@@ -31,9 +31,6 @@ const DopSection = () => {
             <blockquote className="border-l-4 border-red-600 pl-4 md:pl-6 italic text-white text-base md:text-xl mb-8">
               "Trong thế giới ghi hình sân khấu, đây là một game 1 mạng – không có cơ hội thứ hai để sửa sai."
             </blockquote>
-            <div className="flex flex-wrap gap-3">
-              <div className="px-3 py-2 border border-red-600/30 text-[10px] text-red-500 font-label-caps">XM20 AMBASSADOR</div>
-            </div>
           </div>
         </div>
       </div>

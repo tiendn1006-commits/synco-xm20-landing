@@ -17,13 +17,6 @@ const Footer = () => {
               <li><a className="font-['Space_Grotesk'] text-[12px] tracking-[0.2em] uppercase text-white/50 hover:text-red-500 transition-colors" href="#register">REGISTER</a></li>
             </ul>
           </div>
-          <div className="space-y-4">
-            <h4 className="text-red-600 font-black font-['Space_Grotesk'] text-[12px] tracking-[0.2em] uppercase">LEGAL</h4>
-            <ul className="space-y-2">
-              <li><a className="font-['Space_Grotesk'] text-[12px] tracking-[0.2em] uppercase text-white/50 hover:text-red-500 transition-colors" href="#">PRIVACY</a></li>
-              <li><a className="font-['Space_Grotesk'] text-[12px] tracking-[0.2em] uppercase text-white/50 hover:text-red-500 transition-colors" href="#">TERMS</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
