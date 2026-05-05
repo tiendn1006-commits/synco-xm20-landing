@@ -31,7 +31,7 @@ const Concept = () => {
         <div ref={refRight} className={`relative anim-right ${visibleRight ? 'anim-visible' : ''} mt-8 lg:mt-0`}>
           <div className="absolute -inset-2 md:-inset-4 border border-red-600/20 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4"></div>
           <div className="relative z-10 w-full overflow-hidden rounded-lg">
-            <img src={conceptImg} alt="Master XM20 Beyond The Stage" className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+            <img src={conceptImg} alt="Master XM20 Beyond The Stage" className="w-full h-auto object-cover" />
           </div>
         </div>
       </div>
