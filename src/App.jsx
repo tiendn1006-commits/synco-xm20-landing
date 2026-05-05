@@ -19,8 +19,8 @@ function App() {
         <KVBanner />
         <Hero />
         <EventInfo />
-        <BrandStory />
         <DopSection />
+        <BrandStory />
         <Concept />
         <Schedule />
         <Partners />
