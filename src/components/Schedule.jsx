@@ -14,7 +14,7 @@ const scheduleItems = [
   {
     time: '14:40 – 15:25', side: 'right',
     title: 'Brand Story – XM20 Launch',
-    desc: 'Giới thiệu hành trình thương hiệu SYNCO. Reveal chính thức sản phẩm Master XM20.',
+    desc: 'Giới thiệu hành trình thương hiệu SYNCO. Reveal chính thức sản phẩm Xtalk Master XM20.',
     highlight: true
   },
   {

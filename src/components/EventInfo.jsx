@@ -12,7 +12,7 @@ const EventInfo = () => {
           {/* Left */}
           <div ref={refLeft} className={`anim-left ${visibleLeft ? 'anim-visible' : ''}`}>
             <span className="text-red-600 font-label-caps tracking-widest text-xs block mb-3">CHI TIẾT SỰ KIỆN</span>
-            <h2 className="font-display-lg text-white mb-8 leading-tight text-3xl md:text-5xl">Master XM20<br />Launch Event</h2>
+            <h2 className="font-display-lg text-white mb-8 leading-tight text-3xl md:text-5xl">Xtalk Master XM20<br />Launch Event</h2>
 
             <div className="space-y-4">
               <div className="glass-panel p-5 border border-red-600/30">
@@ -21,7 +21,7 @@ const EventInfo = () => {
                   NỘI DUNG CHÍNH
                 </div>
                 <p className="text-secondary text-sm leading-relaxed">
-                  Reveal chính thức Synco Master XM20 – hệ thống liên lạc nội bộ không dây. Demo thực tế, chia sẻ hậu trường từ D.O.P Trần Quốc Vương và trải nghiệm trực tiếp sản phẩm.
+                  Reveal chính thức Synco Xtalk Master XM20 – hệ thống liên lạc nội bộ không dây. Demo thực tế, chia sẻ hậu trường từ D.O.P Trần Quốc Vương và trải nghiệm trực tiếp sản phẩm.
                 </p>
               </div>
 

@@ -6,7 +6,7 @@ const milestones = [
   { year: '2020–2023', title: 'G1 / G2 / G3 PRO', desc: 'Bứt phá với các dòng micro không dây G1, G2, G3 Pro – không ngừng cải tiến từ thiết bị chuyên nghiệp đến giải pháp cho smartphone.' },
   { year: '2024', title: 'XTALK ECOSYSTEM', desc: 'SYNCO mở rộng sang hệ sinh thái liên lạc không dây Xtalk, đưa âm thanh từ ghi nhận sang kết nối thời gian thực.' },
   { year: '2025', title: 'ÂM THANH & HÌNH ẢNH', desc: 'Tiếp tục đa dạng hóa với các sản phẩm kết hợp âm thanh và hình ảnh, hỗ trợ nhà sáng tạo kể câu chuyện tốt hơn.' },
-  { year: '2026', title: 'MASTER XM20', desc: 'SYNCO mở ra chương mới với Synco Master XM20 – hệ thống liên lạc nội bộ không dây, mang đến giải pháp giao tiếp linh hoạt, ổn định cho ekip sản xuất, sân khấu và sự kiện chuyên nghiệp.', highlight: true },
+  { year: '2026', title: 'XTALK MASTER XM20', desc: 'SYNCO mở ra chương mới với Synco Xtalk Master XM20 – hệ thống liên lạc nội bộ không dây, mang đến giải pháp giao tiếp linh hoạt, ổn định cho ekip sản xuất, sân khấu và sự kiện chuyên nghiệp.', highlight: true },
 ]
 
 const MilestoneItem = ({ item, index }) => {

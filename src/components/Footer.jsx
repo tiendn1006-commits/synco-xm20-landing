@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-black text-white italic mb-6 font-['Space_Grotesk']">SYNCO x KingCom</h3>
           <p className="font-['Space_Grotesk'] text-[12px] tracking-[0.2em] uppercase text-white/50 max-w-sm">
-            © 2026 SYNCO X KINGCOM MASTER XM20. BEYOND THE STAGE. ALL RIGHTS RESERVED.
+            © 2026 SYNCO X KINGCOM XTALK MASTER XM20. BEYOND THE STAGE. ALL RIGHTS RESERVED.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8">

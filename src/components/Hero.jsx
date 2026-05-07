@@ -9,7 +9,7 @@ const Hero = () => {
           SYNCO x KINGCOM PRESENTS
         </div>
         <h1 className="font-display-xl text-white mb-6 tracking-tighter leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-          MASTER XM20 <br/>
+          XTALK MASTER XM20 <br/>
           <span className="text-red-600">BEYOND THE STAGE</span>
         </h1>
         <p className="font-body-lg text-secondary max-w-2xl mx-auto mb-10 opacity-80 text-sm sm:text-base px-4">
