@@ -11,12 +11,14 @@ const Partners = () => {
     {
       name: 'KINGCOM',
       logo: kingcomLogo,
-      delay: 'anim-delay-1'
+      delay: 'anim-delay-1',
+      url: 'https://store.kingcom.com.vn/'
     },
     {
       name: 'NANLITE',
       logo: nanliteLogo,
-      delay: 'anim-delay-2'
+      delay: 'anim-delay-2',
+      url: 'https://www.nanlite.com/#/en'
     },
   ]
 
@@ -29,13 +31,16 @@ const Partners = () => {
         <div ref={ref} className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
 
           {partners.map((partner) => (
-            <div 
+            <a
               key={partner.name}
+              href={partner.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`anim-hidden ${partner.delay} ${visible ? 'anim-visible' : ''}`}
               onMouseEnter={() => setHovered(partner.name)}
               onMouseLeave={() => setHovered(null)}
             >
-              <div className={`bg-white rounded-lg p-6 md:p-8 transition-all duration-300 ${
+              <div className={`bg-white rounded-lg p-6 md:p-8 transition-all duration-300 cursor-pointer ${
                 hovered === partner.name ? 'scale-110 shadow-2xl' : 'scale-100'
               }`}>
                 <img 
@@ -44,7 +49,7 @@ const Partners = () => {
                   className="h-16 md:h-20 w-auto object-contain"
                 />
               </div>
-            </div>
+            </a>
           ))}
 
         </div>
